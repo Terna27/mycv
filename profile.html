@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CV - Terna Peter Kpensalen</title>
 <style>
   @page {
@@ -108,8 +109,8 @@
     width: calc(100% - 10px);
     height: calc(100% - 10px);
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    background-image: url('./peter.jpeg');
-    background-position: center 55%;
+    background-image: url('./peter.png');
+    background-position: center 25%;
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-print-color-adjust: exact !important;
@@ -171,6 +172,14 @@
     color: #60a5fa !important;
     margin-top: 1px;
   }
+
+  .skill-label {
+    color: #cbd5e1;
+    font-size: 9px;
+    font-weight: 700;
+    margin: 5px 0 2px;
+  }
+  .timeline-entry, .cert-block { break-inside: avoid; }
 
   .skill-badge {
     display: inline-block;
@@ -372,6 +381,7 @@
       <div>
         <div class="sidebar-heading">Skills</div>
         <div>
+          <div class="skill-label">Languages &amp; Web Development</div>
           <span class="skill-badge">Golang</span>
           <span class="skill-badge">Python</span>
           <span class="skill-badge">JavaScript</span>
@@ -380,8 +390,17 @@
           <span class="skill-badge">React.js</span>
           <span class="skill-badge">REST APIs</span>
           <span class="skill-badge">JSON</span>
+          <div class="skill-label">Databases</div>
+          <span class="skill-badge">PostgreSQL</span>
           <span class="skill-badge">MySQL</span>
+          <div class="skill-label">Cloud &amp; Deployment</div>
+          <span class="skill-badge">AWS</span>
+          <span class="skill-badge">Google Cloud</span>
+          <span class="skill-badge">CI/CD</span>
           <span class="skill-badge">Git</span>
+          <div class="skill-label">Project Delivery</div>
+          <span class="skill-badge">Project Management</span>
+          <span class="skill-badge">Team Coordination</span>
         </div>
       </div>
 
@@ -408,6 +427,11 @@
           <div class="cert-sub">Cisco Networking Academy / BDIC (Mar 2026)</div>
           <div class="cert-code">ID: d5909b10-f8b2-4085-b310-4f6e6d0260a6</div>
         </div>
+        <div class="cert-block">
+          <div class="cert-name">CSS &amp; JavaScript - Certification Course for Beginners</div>
+          <div class="cert-sub">YouAccel | August 10, 2022</div>
+          <div class="cert-code">Verification Code: 16455398-YA</div>
+        </div>
       </div>
 
       <!-- Languages -->
@@ -433,7 +457,7 @@
           <div class="pill-circle"></div>
         </div>
         <p class="profile-text">
-          Results-driven Software Developer and Cybersecurity Enthusiast with hands-on expertise in backend systems development, threat analysis, and web application penetration testing. Proven track record in technical leadership, community mentoring, and training thousands of professionals on digital security protocols.
+          Software Developer, Project Manager, and Cybersecurity Enthusiast with experience in backend development, full-stack project coordination, and web application security. Contribute to and oversee frontend and backend development for Salem-X, combining hands-on engineering with team coordination. Background in technical mentoring and digital security training.
         </p>
       </div>
 
@@ -443,6 +467,19 @@
           <div class="pill-title">Experience</div>
           <div class="pill-line"></div>
           <div class="pill-circle"></div>
+        </div>
+
+        <div class="timeline-entry">
+          <div class="timeline-top">
+            <span class="entry-role">Project Manager</span>
+          </div>
+          <div class="entry-company">Salem-X | Streaming Platform</div>
+          <div><a href="https://salem-x.onrender.com" class="entry-link">salem-x.onrender.com</a></div>
+          <ul class="entry-bullets">
+            <li>Coordinate frontend and backend development, monitoring progress and keeping contributors aligned on project priorities.</li>
+            <li>Contribute directly to frontend and backend implementation and support integration across the platform.</li>
+            <li>Work with developers to resolve implementation issues and track features through development and testing.</li>
+          </ul>
         </div>
 
         <div class="timeline-entry">
@@ -527,7 +564,7 @@
             <span class="entry-role">Saint Francis Nursery & Primary School, Gboko</span>
             <span class="entry-date">09-2007</span>
           </div>
-          <div class="entry-company">First School Leaving Certificate (Lagos State, Nigeria)</div>
+          <div class="entry-company">First School Leaving Certificate (Benue State, Nigeria)</div>
         </div>
       </div>
 
